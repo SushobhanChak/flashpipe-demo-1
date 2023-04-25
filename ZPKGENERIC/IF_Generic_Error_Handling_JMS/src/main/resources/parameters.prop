@@ -1,0 +1,12 @@
+#Tue Apr 25 15:33:49 UTC 2023
+JMSExpirationPeriodInDays=90
+JMSConcurrentProcesses=1
+JMSDeadLetterQueue=0
+MaxRetries=5
+JMSRetryIntervalInMinutes=1
+JMSRetentionThreshold=2
+DS_Name=DS_Error_Dev
+ProcessDirectEntryEndpoint=/JMSErrorHandler
+JMSMaximumRetryIntervalInMinutes=60
+JMSErrorQueue=JMSQueueDEV
+JMSExponentialBackoff=0
